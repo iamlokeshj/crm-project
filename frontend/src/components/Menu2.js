@@ -30,20 +30,12 @@ const Menu1 = () => {
             <div className='itemnsubitemdiv'>
               <Link to="/dashboard"> <li>Activities <img src={require('../media/i9.png')} width="20" height="20"  alt='i9' className='submenudownarrow'/> </li> </Link>
               <ol className='submenu'>
-                <li>subitem2</li>
-                <li>subitem3</li>
-                <li>subitem4</li>
+                <li>New Taks</li>
+                <li>New Email</li>
+                <li>New Event</li>
               </ol>
             </div>
 
-            <div className='itemnsubitemdiv'>
-              <Link to="/dashboard"> <li>Tasks <img src={require('../media/i9.png')} width="20" height="20"  alt='i9' className='submenudownarrow'/> </li> </Link>
-              <ol className='submenu'>
-                <li>subitem2</li>
-                <li>subitem3</li>
-                <li>subitem4</li>
-              </ol>
-            </div>
 
             <div className='itemnsubitemdiv'>
               <Link to="/dashboard"> <li>Tracking <img src={require('../media/i9.png')} width="20" height="20"  alt='i9' className='submenudownarrow'/> </li> </Link>
